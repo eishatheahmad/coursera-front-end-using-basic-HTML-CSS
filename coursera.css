@@ -1,0 +1,1200 @@
+.nav-logo
+{
+    width: 132px;;
+    height:26px;
+    
+    
+}
+
+*{
+    font-family:  'Source Sans Pro', sans-serif;
+}
+
+
+nav
+{
+    display: flex;
+    flex-direction: row;
+    background-color:white;
+    border-bottom: 1px solid rgb(177, 175, 175);
+    justify-content: space-between;
+    
+}
+
+
+nav ul
+{
+    display: flex;
+    list-style:none;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center ;
+    font-size: 14px;
+    height:20;
+   
+}
+
+nav ul div.items
+{
+    display: inline-flex;
+    padding: 0 25px;
+    width: 200px;
+    
+    
+
+}
+
+
+nav ul div.items2
+{   
+    position: absolute;
+    flex-wrap: wrap;
+    right: 0;
+    transition-duration: 0.3s;
+    color: black;
+
+}
+
+nav ul div.items2 a{
+   font-size: larger;
+   
+}
+
+nav ul div.items a{
+    display: inline-flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 10px 16px;
+    align-content: center;
+}
+
+
+nav ul div.items2
+{
+    display: inline-flex;
+    padding: 6px 12px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    
+
+}
+
+nav ul div.items2 a{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 12px 12px;
+
+}
+
+nav ul.search-icon
+{
+    height: 40px;
+    width: 300px;
+    display: flex;
+    background: rgb(0,86,210);
+    
+}
+
+.search-icon-button
+{
+    background: rgb(0,86,210);
+    border-left: rgb(0,86,210);
+    height: 36px;
+    width: 36px;
+}
+
+.input-search
+{
+    height: 36px;
+    width: 400px;
+}
+
+.explore_button
+{
+ background-color: rgb(0,86,210); 
+    color: white;
+    border-radius: 2px;
+    font-weight: bold;
+    height: 14px;
+    justify-content: center;
+    align-items: center;   
+
+    
+}
+
+.joinforfree{
+    background-color: rgb(0,86,210); 
+    color: white;
+    border-radius: 2px;
+    font-weight: bold;
+    align-content: center;
+    height: 14px;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+   
+}
+
+.joinforfree:hover
+{
+    background-color: rgb(6, 68, 155);
+    cursor: pointer;
+}
+
+.exploreButt{
+    background-color: rgb(0,86,210); 
+    color: white;
+    border-radius: 2px;
+    font-weight: bold;
+    align-content: center;
+    height: 14px;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 0.3s;
+    
+   
+}
+
+.a-for-enterprise:hover
+{
+    cursor: pointer;   
+    box-shadow: 0px 8px 8px 8px rgba(0, 0, 0, 0.05);   
+}
+
+.a-for-students:hover
+{
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(0,86,210);
+}
+
+
+
+.exploreButt:hover
+{
+    background-color: white;
+    color: rgb(0,86,210);
+    box-shadow: 0px 8px 8px 8px rgba(0, 0, 0, 0.05);
+}
+
+.log-in
+{
+    color: rgb(0,86,210);
+    padding: 0px 12px;
+    transition: 0.3s;
+}
+
+.log-in:hover
+{
+    text-decoration: underline;
+    cursor: pointer;   
+}
+
+.div-your-course-to-success
+{
+    margin-top: 1px;
+    border:1px  blue;
+    height: 560px;
+    width:100%;
+    display: inline-block;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+
+
+
+.h1-your-course-to-success
+{
+    display: inline-block;
+   
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: absolute;
+    padding-left: 250px;
+    padding-top: 35px;
+    font-size: 80px;
+     
+}
+
+.h3-your-course-to-success
+{
+    font-weight:lighter;
+    display: inline-block;
+   
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: absolute;
+    padding-left: 250px;
+    padding-top: 290px;
+    
+    
+}
+
+.div-join-for-free
+{
+    
+    background-color:rgb(0,86,210);
+    font-size: larger;
+    color: snow;
+    height: 70px;
+    width: 240px;
+    border-radius: 4px;
+    font-weight: bolder;
+    border: none;
+    display: inline-block;
+   
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: absolute;
+    margin-left: 250px;
+    margin-top: -150px;
+
+    transition: 0.3s;
+}
+
+
+.div-join-for-free:hover
+{
+    background-color: rgb(6, 68, 155);
+    cursor: pointer;
+}
+
+.img-your-course-to-success
+{
+    position:relative;
+    padding-top: 35px;
+    padding-right: 150px;
+    display: inline;
+    margin-left:900px ;
+    
+}
+
+.div-we-collaborate
+{
+    height: 270px;
+    width: 100%;
+    background-color: rgb(245,245,245);
+    position: relative;
+    text-align: center;
+  
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+   
+    
+}
+
+.h2-we-collaborate
+{
+    
+    padding-top: 4%;
+    font-size:32px;
+    transition: 0.3s;
+    
+}
+
+.lead-uni
+{
+    transition: 0.3s;
+}
+
+.lead-uni:hover
+{
+    text-decoration: underline;
+}
+
+.we-collaborate-img
+{
+   
+    padding-left: 8px;
+    padding-right: 8px;
+    
+}
+
+.div-img-we-collaborate
+{
+   
+    width: 100%;
+    background-color: rgb(245,245,245);
+    position: relative;
+    text-align: center;
+    justify-content:center;
+  
+}
+
+.div-achieve-your-goals
+{
+    height: 550px;
+    width: 100%;
+    background-color: white;
+    
+    position: relative;
+    text-align: center;
+  
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.div-img-achieve-your-goal
+{
+    
+    width: 100%;
+    height:60%;
+    display:flex;
+    align-content: center;
+    align-items: center;   
+    text-align: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.h2-achieve-your-goals
+{
+    font-size: 40px;
+}
+.div-inner-img
+{
+    
+    width: 10%;
+    height: 100%;
+    align-items: center;
+    display: inline;
+    padding-left: 4%;
+    padding-right: 4%;
+    justify-content: space-between;
+    border: 2px yellow;
+}
+
+.img-achieve-your-goals
+{
+    border: 2px  red;
+    height: 50px;
+    width: 60px;
+    position: relative;
+    text-align: center;
+    justify-content:center;
+   
+    display: inline-block;
+}
+
+.h3-img-achieve-your-goals
+{
+    font-size: 22px;
+}
+
+.h4-img-achieve-your-goals
+{
+    font-size: 22px;
+    font-weight: lighter;
+}
+
+
+.div-learner-outcomes-on-coursera
+{
+    height: 500px;
+    width: 100%;
+    background-color:rgb(235,243,255); 
+    border: 1px  black;
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.img-outcomes
+{
+    position: absolute;
+    left: 8%;
+    z-index: 0;
+    top: -6%;
+    justify-content:center;
+    display: flex;
+
+    
+}
+
+.h2-img-learner-outcomes
+{
+    position: absolute;
+    right: 0;
+    padding-right: 210px;
+    padding-top: 90px;
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+.h3-img-learner-outcomes
+{
+    position: absolute;
+    right: 0;
+    padding-right: 280px;
+    padding-top: 160px;
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: left;
+}
+
+.p-img-learner-outcomes
+{
+    position: absolute;
+    right: 0;
+    padding-right: 28%;
+    padding-top: 18%;
+    font-size: 16px;
+    font-weight:lighter;
+    text-align: left;
+}
+
+
+.div-learner-buttons
+{
+    border: 1px green;
+
+    width: 600px;
+    height: 60px;
+    align-items: center;
+    display: inline;
+    margin-left: 670px;
+    margin-top: 330px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+     
+}
+.joinforfree2
+{
+    background-color: rgb(0,86,210); 
+    border: 1px solid rgb(0,86,210);
+    color: white;
+    border-radius: 4px;
+    font-weight: bold;
+    align-content: center;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 60px;
+    margin-right: 30px;
+    transition: 0.3s;
+}
+
+.joinforfree2:hover
+{
+    background-color: rgb(6, 68, 155);
+    cursor: pointer;
+}
+
+.button-try-for-bussiness
+{
+    background-color: white;
+    border: 1px solid rgb(0,86,210);
+    color: rgb(0,86,210);
+    border-radius: 4px;
+    font-weight: bold;
+    text-align: center;
+    align-content: center;
+    font-size: 16px;   
+    width: 220px;
+    height: 60px;
+    transition: 0.3s;
+    
+}
+
+.button-try-for-bussiness:hover
+{
+    background-color: rgba(93, 207, 252, 0.096);
+    cursor: pointer;
+}
+
+.div-world-class
+{
+    border: 1px  purple;
+    width: 100%;
+    height: 700px;
+}
+
+
+.h1-world-class
+{
+    font-size: 45px;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 40px;
+    border: 1px  yellow;
+}
+
+.div-world-class-inner
+{
+    border: 1px  red;
+    padding-left: 200px;
+    width: 500px;
+}
+
+.h1-world-class-inner
+{
+    font-size: 45px;
+    font-weight:500;
+
+}
+
+.h3-world-class-inner
+{
+    font-size: 22px;
+    font-weight:100;
+}
+
+
+.div-accessibility
+{
+    border: 1px purple;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.img-accessibility
+{
+    position: relative;
+    margin-left: 160px;
+}
+
+.h3-accessibility
+{
+    font-size: 20px;
+    color: #382D8B;
+    font-weight: 700;
+    border: 1px  purple;
+    width: fit-content;
+    display: inline-block;
+}
+
+.h1-accessibility
+{
+    font-size: 44px;
+    font-weight: 500;
+}
+
+
+.h3-accessibilitydescription
+{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+.div-accessibility-inner
+{
+
+    border: 1px  cyan;
+    margin-top: 80px;
+    padding-left: 300px ;
+}
+
+.semi-circ
+{
+    height: 1500px;
+    z-index: -1;
+    position: absolute;
+    right: 0;
+    margin-top: -130px;
+    
+
+}
+
+.div-applied-learning-outer
+{
+    border: 1px  purple;
+
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.img-applied-learning
+{
+    position: absolute;
+    right: 0;
+    margin-right: 25px;
+    border: 1px olive
+}
+
+.div-applied-inner
+{
+    border: 1px   cyan;
+    margin-top: 80px;
+    padding-left: 200px ;
+}
+
+.div-coursera-community
+{
+    width: 100%;
+    height:800px;
+    
+    align-content: center;
+    align-items: center;   
+    text-align: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: orange  2px;
+
+}
+
+.h1-coursera-community
+{
+font-size: 36px;
+}
+
+.h2-coursera-community
+{
+font-size: 28px;
+font-weight: 400;
+border: 1px green ;
+}
+
+.h3-img-coursera-community
+{
+    font-size: 22px;
+    border: 1px aqua ;
+    font-weight: 800;
+}
+.h4-img-coursera-community
+{
+    font-size: 20px;
+    font-weight: lighter;
+    
+
+}
+
+.h6-img-coursera-community
+{
+    font-size: 16px;
+    font-weight: 400;
+    border: 1px blueviolet ;
+    margin-top: -20px;
+    margin-bottom: -30px;
+}
+
+.h5-img-coursera-community
+{
+    font-size: 16px;
+    font-weight: 600;
+    border: 1px green ;
+    margin-top: -20px;
+    
+
+}
+.line
+{
+    margin-top: 40px;
+    margin-bottom: -20px;
+    border-top: 3px solid rgb(0,86,210);
+    width: 60px;
+}
+
+.div-inner-img-coursera-com
+{
+    
+    width: 15%;
+    height: 100%;
+    align-items: center;
+    display: inline;
+    padding-left: 4%;
+    padding-right: 4%;
+    justify-content: space-between;
+    border: 2px  yellow;
+}
+
+
+
+
+.img-coursera-com
+{
+    
+    position: relative;
+    
+    border: 2px pink ;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.div-take-the-next-step
+{
+    margin-top: -40px;
+    height: 500px;
+    width: 100%;
+    background-color:rgb(249,247,239);
+    border: 1px black;
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.h2-img-next-step
+{
+    position: absolute;
+    right: 0;
+    margin-right: 400px;
+    padding-top: 35px;
+    font-size: 40px;
+    font-weight: lighter;
+    text-align: left;
+    border: 1px  green;
+
+}
+
+.h3-img-next-step
+{
+    position: absolute;
+    right: 0;
+    margin-right: 340px;
+    padding-top: 260px;
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: left;
+    
+
+}
+
+.img-next-step
+{
+    position: absolute;
+    left: 8%;
+   
+    top: 6%;
+    justify-content:center;
+    display: flex;
+}
+
+.div-coursera-for-bussiness-outer
+{
+    border: 1px  purple;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;   
+}
+
+.div-coursera-for-business-inner
+{
+    border: 1px   red;
+    height: fit-content;
+    width: fit-content;
+    align-self: center;
+    
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 260px;
+
+}
+
+.img-capture
+{
+    position: absolute;
+    right: 0;
+    margin-right: 260px;
+    margin-top: 60px;
+    border:  2px olive;
+    align-self: center;
+    width: 500px;
+    height: 200px;
+    padding: 0;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.div-img-coursera-for-business
+{
+    border:  2px blue;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    position: relative;
+    
+    
+}
+
+.h1-for-business
+{
+
+    font-size: 44px;
+    font-weight: 500;
+    border:  2px blue;
+    width: fit-content;
+}
+
+.h11-for-business
+{
+    border:  3px pink;   
+    height: fit-content;
+    position: absolute;
+    right: 0;
+    margin-right: 230px;
+    margin-top: 180px
+
+}
+
+.h3-for-business
+{
+    font-size: 20px;
+    font-weight: 400;
+    border:  2px cyan;
+    width: fit-content;
+}
+
+
+
+.div-for-business-buttons
+{
+    border:  2px orange;
+    padding: 0;
+}
+
+.div-boost-career-outer
+{
+    height: 500px;
+    width: 100%;
+    background-color:rgb(235,243,255); 
+    border: 1px   black;
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    
+}
+
+.div-boost-career-inner-left
+{
+    border: 1px   blue;
+    height: fit-content;
+    width: fit-content;
+    
+    
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    margin-left: 50px;
+    align-content: center;
+    
+    
+    
+}
+
+.div-boost-career-inner-right
+{
+    border: 2px  aqua;
+    height: fit-content;
+    width: fit-content;
+    
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0px 20px;
+    
+    margin-top:0px;
+
+}
+
+
+.h2-img-boost-career
+{
+    position: relative;
+    font-size: 40px;
+    font-weight: lighter;
+    text-align: left;
+    border: 1px   purple;
+    margin-top: -10px;
+
+
+}
+
+
+.div-boost-degree
+{
+    width: 250px;
+    height: 100px;
+    background-color: white;
+    border:  blue 2px;
+    box-shadow: rgb(0 0 0 / 12%) 0px 0.86px 10px;
+    
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 4px;
+    margin: 20px;
+    
+
+}
+
+.div-uni-logo
+{
+    padding: 12px;
+    border:  yellow 2px;
+    
+    display:flex;
+    text-align: left;
+    
+
+
+}
+
+.uni-logo-details
+{
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    width:fit-content;
+    border:  yellow 2px;
+}
+
+.div-uni-logo-details
+{
+    border: blue 2px;
+    align-content: center;
+    width: 160px;
+
+}
+
+.div-top-links-at-end
+{
+    width: 100%;
+    height: 800px;
+
+    border: 2px  blue;
+    background-color: rgb(245,245,245);
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    
+
+}
+
+.div-top-links-at-end-col
+{
+    border: 2px red;
+    height:fit-content;
+    width: 300px;
+    justify-content: left;
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    
+}
+
+.h2-top-link
+{
+    font-size: 20px;
+    border: 2px  yellow;
+    width: fit-content;
+    justify-content: right;
+    margin-left: 40px;
+    font-weight: 600;
+
+}
+
+.ul-top-links
+{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    list-style: none;
+    margin-top: -5px;
+}
+
+.li-top-links
+{
+    font-size: 14px;
+    text-decoration: none;
+    justify-content: right;
+    border: 2px  orange;
+    width: fit-content;
+    margin-top: 6px;
+
+
+}
+
+.a-top-link
+{
+    text-decoration: none;
+    color: black;
+    
+}
+
+
+.img-store-links
+{
+    width: 110px;
+    height: 40px;
+    align-self: center;
+    margin-top: 15px;
+
+}
+
+
+.hr-footer
+{
+    width: 1100px;
+    border: 1.5px solid grey;
+    color: rgb(177, 175, 175);
+    border-radius: 4px;
+    background-color: grey;
+    
+    margin: auto;
+    align-self: center;
+}
+
+.div-footer
+{
+    width: 100%;
+    height: 150px;
+    border: 1.5px  red;
+    background-color: rgb(245,245,245);
+    display: inline;
+    
+
+}
+
+.p-footer
+{
+    font-size: 14px;
+    border: 1.5px  green;
+    width: fit-content;
+    margin-left: 200px;
+    margin-top: 80px;
+    
+    
+}
+
+.img-footer
+{
+width: 30px;
+height: 30px;
+position: relative;
+padding: 5px;
+
+
+}
+
+.div-img-footer
+{
+    border: 2px blue;
+    position: absolute;
+    right: 0;
+    margin-right: 210px;
+    margin-top: -55px;
+    padding: 5px 5px;
+    justify-content: space-evenly;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
